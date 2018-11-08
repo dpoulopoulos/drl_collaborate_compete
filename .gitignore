@@ -2,3 +2,4 @@
 unity-environment.log
 .vscode
 __pycache__
+model_checkpoints
