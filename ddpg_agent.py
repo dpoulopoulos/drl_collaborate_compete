@@ -20,6 +20,7 @@ WEIGHT_DECAY = 1e-5     # L2 weight decay
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 
+# Inspired by the excellent work done in github.com/udacity/deep-reinforcement-learning/blob/master/ddpg-pendulum/ddpg_agent.py
 class DDPGAgent():
     """Interacts with and learns from the environment."""
     
